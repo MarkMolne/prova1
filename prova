@@ -8,10 +8,9 @@
 
 <script>
 	fetch('missatge')
-	. then(resposta => resposta.
-		text())
+	. then(resposta => resposta. text())
 	. then (text => console.log(text))
-	. catch (error => console.log(error))
+	. catch (error => console.log(error));
 </script>
 
 </body>

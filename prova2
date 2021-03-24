@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+<title> HTML Tutorial </title>
+<body>
+
+<h1> This is Heading</h1>
+<p> This is a page </p>
+
+<script>
+	fetch('missatge.txt')
+	. then(resposta => resposta. text())
+	. then (text => {
+    document.
+      .getElementbyID("principal")
+      .innerHTML = text
+  
+   })
+	. catch (error => console.log(error));
+</script>
+
+</body>
+</html>
